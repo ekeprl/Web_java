@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>링크테스트</title>
+</head>
+<body>
+ 	
+ 	<a href="http://localhost:8000/exweb/hello.do">절대경로로 Hello서블릿 실행!</a> <!-- 같은 서버인 tomcat을 사용 -->
+ 	<br>
+ 	<br>
+ 	
+ 	<a href="/exweb/hello.do">Hello서블릿 실행!</a>
+ 	<br>
+ 	<br>
+ 	<a href="./../hello.do">상대경로로 Hello서블릿 실행!</a>  
+ 	<!-- => "현재폴더/부모폴더/hello.do로 가려고함
+ 	         ./(현재폴더를 나타내는것 = 생략가능)    -->
+ 	
+</body>
+</html>
